@@ -2686,13 +2686,13 @@ input, select, textarea {
 		margin: 0 0 1.5em 0;
 	}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			header p br {
 				display: none;
 			}
 
-		}
+		} */
 
 	header h2 + p {
 		font-size: 1.25em;
