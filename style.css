@@ -279,7 +279,7 @@ body{
 .reveal.visible{opacity:1;transform:none}
 
 /* footer */
-.site-footer{padding:2rem 0;border-top:1px solid rgba(255,255,255,0.04);color:var(--muted);text-align:center}
+.site-footer{padding:1rem 0;border-top:1px solid rgba(255,255,255,0.04);color:var(--muted);text-align:center}
 
 /* responsive */
 @media (max-width:900px){
