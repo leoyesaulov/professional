@@ -138,7 +138,7 @@ body{
     grid-template-columns:1fr 280px;
     gap:2rem;
     /*
-    Decide which version better: with blur or without1
+    Decide which version better: with blur or without
     align-items:center;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
