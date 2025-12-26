@@ -287,26 +287,6 @@ body{
   .split{grid-template-columns:1fr}
 }
 
-/* Links */
-a{
-    text-decoration: none;
-}
- /* unvisited link */
-a:link {
-    text-decoration = none;
-}
-/* visited link */
-a:visited {
-    text-decoration = none;
-}
-/* mouse over link */
-a:hover {
-    text-decoration = none;
-}
-/* selected link */
-a:active {
-    text-decoration = none;
-}
 
 
 /* --- MOBILE ADAPTATION --- */
@@ -417,3 +397,12 @@ a:active {
   }
 }
 
+a.mute:link,
+a.mute:visited,
+a.mute:hover,
+a.mute:focus,
+a.mute:active
+{
+    color:white;
+    text-decoration:none
+}
