@@ -63,6 +63,7 @@ body{
     padding:0.5rem 0.8rem;
     border-radius:10px;
     cursor:pointer
+    text-decoration:none
 }
 .nav-toggle{
     display:none;
