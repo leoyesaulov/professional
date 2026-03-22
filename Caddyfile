@@ -2,7 +2,7 @@
 	auto_https off
 }
 
-localhost:5005 {
+http://localhost:5005 {
 	@notData {
 		not path /.git/*
 		not path /Caddyfile
