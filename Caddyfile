@@ -12,6 +12,18 @@ http://localhost:5005 {
 		not path /.env
 		not path /hidden/*
 	}
+	
+	output logger_out /hidden/caddylog {
+		mode 600
+		roll_interval 30d
+	}
+
+	log {
+		output logger_out
+		format console
+	}
+
+
 
 	respond /.git/* 403
 	respond /Caddyfile 403
