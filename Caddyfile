@@ -13,13 +13,9 @@ http://localhost:5005 {
 		not path /hidden/*
 	}
 	
-	output logger_out /hidden/caddylog {
-		mode 600
-		roll_interval 30d
-	}
 
 	log {
-		output logger_out
+		output file /hidden/caddylog 
 		format console
 	}
 
