@@ -17,5 +17,6 @@ localhost:5005 {
     respond /.env 403
     respond /hidden/* 403
 
+    auto_https off
     file_server @notData
 }
